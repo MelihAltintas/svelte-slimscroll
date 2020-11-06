@@ -682,7 +682,8 @@ var SlimScroll = (function () {
 
 
 function unwrap(node) {
-    node.replaceWith(...node.childNodes);
+    if(node != undefined && node != null)
+        node.replaceWith(...node.childNodes);
 }
 
 export function slimscroll(node, options) {
