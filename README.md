@@ -1,6 +1,8 @@
 # svelte-slimscroll
 svelte-slimscroll is a action for Svelte.js, which can transforms any div into a scrollable area with a nice scrollbar.
 
+**Demo**: https://svelte.dev/repl/e8dcf07c3f3c4573a62ec289b1958005?version=3.29.4.
+
 The original jQuery version is here[https://github.com/rochal/jQuery-slimScroll](https://github.com/rochal/jQuery-slimScroll).
 
 ## Install
