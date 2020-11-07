@@ -1,6 +1,6 @@
 {
   "name": "svelte-slimscroll",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "svelte-slimscroll is a action for Svelte.js, which can transforms any div into a scrollable area with a nice scrollbar.",
   "repository": {
     "type": "git",

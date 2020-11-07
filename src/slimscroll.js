@@ -389,22 +389,23 @@ var SlimScroll = (function () {
         //all binding events callback
         var events = {
             touchStart: function (e, b) {
-                if (e.originalEvent.touches.length) {
+               
+                if (e.touches.length) {
                     // record where touch started
-                    touchDif = e.originalEvent.touches[0].pageY;
+                    touchDif = e.touches[0].pageY;
                 }
             },
             touchMove: function (e) {
                 // prevent scrolling the page if necessary
                 if (!releaseScroll) {
-                    e.originalEvent.preventDefault();
+                    e.preventDefault();
                 }
-                if (e.originalEvent.touches.length) {
+                if (e.touches.length) {
                     // see how far user swiped
-                    var diff = (touchDif - e.originalEvent.touches[0].pageY) / o.touchScrollStep;
+                    var diff = (touchDif - e.touches[0].pageY) / o.touchScrollStep;
                     // scroll content
                     scrollContent(diff, true);
-                    touchDif = e.originalEvent.touches[0].pageY;
+                    touchDif = e.touches[0].pageY;
                 }
             },
             hoverIn: function () {
