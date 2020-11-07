@@ -22,7 +22,9 @@ var SlimScroll = (function () {
         closest: function (selector) {
             if (!selector) return $(document)
             var parent = this.parent()
-            while (parent.el !== $(selector).el) {
+
+            while (parent.el.className != $(selector).el.className) {
+
                 parent = parent.parent()
             }
             return parent
