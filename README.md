@@ -3,8 +3,8 @@ svelte-slimscroll is a action for Svelte.js, which can transforms any div into a
 
 **Demo**: https://svelte.dev/repl/e8dcf07c3f3c4573a62ec289b1958005?version=3.29.4.
 
-The original jQuery version is here[https://github.com/rochal/jQuery-slimScroll](https://github.com/rochal/jQuery-slimScroll).
 
+[![Stargazers repo roster for @MelihAltintas/svelte-slimscroll](https://reporoster.com/stars/MelihAltintas/svelte-slimscroll)](https://github.com/MelihAltintas/svelte-slimscroll/stargazers)
 ## Install
 - Install it by using npm.
 
